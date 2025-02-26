@@ -1,4 +1,4 @@
-# GINO2GROOT
+# ORACLE2POSTGRESQL
 
 **_In un database Oracle v.11 ho una tabella GINO1 piuttosto grossa contenente 30 milioni di records. In un database PostgreSQL v.15 ho una tabella GINO2 equivalente, avente per quanto possibile la stessa struttura della tabella GINO1. La tabella GINO1 è soggetta ad un flusso di operazioni insert e update ad un ritmo di circa 20 operazioni al secondo. Le due istanze di database possono comunicare tramite la rete IP. Vorrei travasare i dati da GINO1 a GINO2 nel più breve tempo possibile, preferibilmente senza arrestare il flusso di operazioni su GINO1._**
 
